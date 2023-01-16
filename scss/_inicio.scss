@@ -1,0 +1,35 @@
+.h2-inicio{
+    margin: 70px 0px;
+    text-align: center;
+    font-family: $didactFont;
+    font-size: 28px;
+}
+
+.h2-estetica{
+    @extend .h2-inicio;
+    transition-duration: 0.4s;
+    &:hover{
+        color: rgb(217, 163, 105);
+        transform: scale(1.07);
+        cursor: pointer;
+    }
+
+}
+
+
+.parrafo-inicio{
+    font-size: 20px;
+    p{
+        margin-bottom: 90px;       
+    }
+}
+
+.img-inicio img{
+    width: 300px;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 20px 0px grey;
+    transition-duration: 0.4s;
+    &:hover{
+        transform: scale(1.09);
+    }
+}

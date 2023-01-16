@@ -1,0 +1,29 @@
+.bg-color{
+    background-color: $navColor;
+}
+#botonera{
+    img{
+        width: 50px;
+        margin-left: 15px;
+    }
+    ul li{
+        margin-right: 50px;
+    }
+    a{
+        text-decoration: none;   
+        font-size: 1.2em;
+        color: #4e4e4e;
+        font-weight:bold;
+        &:hover{
+            color: #767676;
+        }
+    } 
+
+
+}
+
+.carousel-inner img{
+    height: 400px;
+    object-fit: cover;  
+}
+
