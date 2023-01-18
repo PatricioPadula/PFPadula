@@ -1,5 +1,6 @@
-@mixin flex ($direction, $justify){
-    display: flex;
-    flex-direction: $direction;
-    justify-content: $justify;
+@mixin textos ($family, $color, $size) {
+    text-align: center;
+    font-family: $family;
+    font-size: $size;
+    color: $color;
 }

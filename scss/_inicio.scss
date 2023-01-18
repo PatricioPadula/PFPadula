@@ -1,8 +1,6 @@
 .h2-inicio{
     margin: 70px 0px;
-    text-align: center;
-    font-family: $didactFont;
-    font-size: 28px;
+    @include textos ($didactFont, $h2Color, 28px);
 }
 
 .h2-estetica{
